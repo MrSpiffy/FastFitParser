@@ -6,9 +6,10 @@
     <FileVersion>0.4.0.0</FileVersion>
     <Version>0.4.0</Version>
     <Authors></Authors>
-    <Company>High performance FIT file parser packaged as a PCL.</Company>
+    <Company></Company>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>High performance FIT file parser packaged as a .NET Standard library.</Description>
   </PropertyGroup>
 
 </Project>
