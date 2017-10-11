@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFitParser.Core", "FastFitParser.Core\FastFitParser.Core.csproj", "{E81097FC-6FE8-4019-BFEB-56911A14EB7D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFitParser.Tests", "FastFitParser.Tests\FastFitParser.Tests.csproj", "{6949B712-BDD6-46A8-838B-AB5090BE128F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrcTableGenerator", "CrcTableGenerator\CrcTableGenerator.csproj", "{E0DA1B82-AA5C-42E3-9900-D0442DC49C75}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitToHdf5", "FitToHdf5\FitToHdf5.csproj", "{C40B8A75-CE4C-4002-ACF7-696FF84FD537}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFitParser.Core", "FastFitParser.Core\FastFitParser.Core.csproj", "{FCA0A0D1-8147-4987-8F73-187D83D4E047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFitParser.Tests", "FastFitParser.Tests\FastFitParser.Tests.csproj", "{FD99EABA-7B9F-49DD-B8E6-D25AC349D9F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E81097FC-6FE8-4019-BFEB-56911A14EB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E81097FC-6FE8-4019-BFEB-56911A14EB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E81097FC-6FE8-4019-BFEB-56911A14EB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E81097FC-6FE8-4019-BFEB-56911A14EB7D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6949B712-BDD6-46A8-838B-AB5090BE128F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6949B712-BDD6-46A8-838B-AB5090BE128F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6949B712-BDD6-46A8-838B-AB5090BE128F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6949B712-BDD6-46A8-838B-AB5090BE128F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E0DA1B82-AA5C-42E3-9900-D0442DC49C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E0DA1B82-AA5C-42E3-9900-D0442DC49C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0DA1B82-AA5C-42E3-9900-D0442DC49C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,8 +25,19 @@ Global
 		{C40B8A75-CE4C-4002-ACF7-696FF84FD537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C40B8A75-CE4C-4002-ACF7-696FF84FD537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C40B8A75-CE4C-4002-ACF7-696FF84FD537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA0A0D1-8147-4987-8F73-187D83D4E047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA0A0D1-8147-4987-8F73-187D83D4E047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA0A0D1-8147-4987-8F73-187D83D4E047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA0A0D1-8147-4987-8F73-187D83D4E047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD99EABA-7B9F-49DD-B8E6-D25AC349D9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD99EABA-7B9F-49DD-B8E6-D25AC349D9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD99EABA-7B9F-49DD-B8E6-D25AC349D9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD99EABA-7B9F-49DD-B8E6-D25AC349D9F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D95CBF3-B6EB-4B8D-ADDC-F08F64D21132}
 	EndGlobalSection
 EndGlobal
